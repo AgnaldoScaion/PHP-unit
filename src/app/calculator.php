@@ -137,6 +137,10 @@ class Calculator
     {
         return $numero % 2 == 0;
     }
+        public function ehImpar(int $numero): bool
+    {
+        return $numero % 2 !== 0;
+    }
 
     /**
      * Calcula a média de um array de números
